@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+
+
+}
+
+.primaey-text {
+    color: rgb(209, 18, 219);
+}
+
+.primary-btn {
+    width: 100px;
+    padding: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.primary-btn:hover {
+    box-shadow: 5px 0px 10px 0px rgb(246, 247, 247);
+    transition: all 0.2s ease-in;
+
+}
+
+
+/* Header and nav */
+header {
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+
+
+}
+
+nav>ul {
+    padding-top: 40px;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+.nav-ul li {
+    list-style: none;
+
+}
+
+.nav-ul li a {
+    color: rgb(9, 9, 9);
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(198, 198, 198);
+    border-radius: 5px;
+
+
+}
+
+.nav-ul li a:hover {
+
+    background-color: rgb(255, 167, 2);
+    box-shadow: 5px 0px 5px 0px;
+    transition: all 0.2s ease-in;
+
+
+}
+
+
+nav {}
+
+.bannar-contaienr {
+
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 100px;
+    padding-top: 200px;
+    align-items: center;
+    background-color: rgb(203, 180, 180);
+    padding-bottom: 130px;
+
+
+}
+
+.image-container {
+    display: flex;
+
+}
+
+.texts-nav {
+    margin-right: 150px;
+    width: 400px;
+    line-height: 30px;
+    text-align: justify;
+
+}
+
+.nav-titel {
+    margin-bottom: 30px;
+    color: blueviolet;
+
+
+
+}
+
+.sub-titel {
+    margin-bottom: 20px;
+
+}
+
+.nav-description {
+    color: rgb(241, 234, 237);
+
+}
+
+
+.img-1 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.img-2 {
+    width: 200px;
+    height: 200px;
+    top: 45px;
+    position: relative;
+    right: 260px;
+    z-index: 2;
+}
+
+/* About me */
+.about-me {
+    background-color: rgba(18, 19, 19, 0.749);
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+
+}
+
+.about-titel {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.about-titel h1 {
+    color: blueviolet;
+    margin-bottom: 10px;
+}
+
+.about-titel p {
+    color: blueviolet;
+}
+
+hr {
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.about-container {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 150px;
+    gap: 50px;
+
+}
+
+.about-content {
+    width: 550px;
+
+
+
+}
+
+.about-content p {
+    text-align: justify;
+    line-height: 25px;
+    color: white;
+    margin-top: 15px;
+
+}
+
+.ab-img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+.ab-img:hover {
+    box-shadow: 10px 5px 5px 5px black;
+    transition: all 0.2s ease-in;
+}
+
+/* Services */
+.service {
+    margin-top: 20px;
+    background-color: rgb(81, 140, 133);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.service-titel {
+    align-items: center;
+    padding-left: 45%;
+    color: orange;
+    margin-bottom: 20px;
+}
+
+.serice-sub {
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    color: aliceblue;
+}
+
+.hr-service {
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.service-content {
+    width: 100px;
+
+
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+}
+
+.service-content {
+    color: rgb(252, 255, 254);
+    padding: 20px 60px 0px 40px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.service-content:hover {
+    box-shadow: 10px 10px 10px 5px black;
+
+}
+
+
+.service-content h2 {
+
+    margin-bottom: 5px;
+    text-align: left;
+
+}
+
+.service-content p {
+    text-align: left;
+    font-size: 12px;
+
+}
+
+.service-imgs {
+    width: 35px;
+    padding: 0% 40% 5% 40%;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    padding-top: 130px;
+    padding-left: 180px;
+    gap: 100px;
+
+
+}
+
+.future-footer {
+    color: #F8F8F8;
+
+
+}
+
+.future-title {
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.future-description {
+    color: #F8F8F8;
+    margin-bottom: 24px;
+}
+
+.email-part {
+    margin-bottom: 16px;
+
+}
+
+.phone-part {
+    margin-bottom: 32px;
+
+
+}
+
+.image-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.subcribe-footer {
+    padding-right: 230px;
+
+}
+
+/* Subcribe part */
+.subcribe-footer{
+    color: white;
+}
+.sub-title {
+    margin-bottom: 31px;
+
+}
+
+.input {
+
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    background-color: #151414;
+    margin-bottom: 16px;
+
+
+}
